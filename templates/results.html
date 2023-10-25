@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Flask WTF-Example</title>
+    
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="result">
+      <h1 style="text-align: center; color: #007bff;">INSERTED DATA</h1>
+      <h1>Email: {{ results['email'] }}</h1>
+      <h1>Password: {{ results['password'] }}</h1>
+      <h1>Free Form: {{ results['freeform'] }}</h1>
+      <h1>Radios: {{ results['radios'] }}</h1>
+      <h1>Selects: {{ results['selects'] }}</h1>
+    </div> 
+
+  </body>
+</html>

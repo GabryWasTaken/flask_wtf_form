@@ -1,0 +1,117 @@
+/* Set the font family and background color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #eee;
+  }
+  
+  /* Style the container div */
+  .container {
+    margin-top: 50px;
+  }
+  
+  /* Style the form */
+  form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the legend */
+  legend {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  /* Style the form fields */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: #eee;
+    background-color: #444;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: #eee;
+    background-color: #444;
+  }
+  
+  /* Style the radio buttons */
+  .radio {
+    margin-bottom: 10px;
+  }
+  
+  .radio label {
+    font-weight: normal;
+    color: #eee;
+  }
+  
+  .radio input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Style the buttons */
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: #eee;
+    cursor: pointer;
+  }
+  
+  .btn-default {
+    background-color: #555;
+    margin-right: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+  }
+  
+  /* Add some hover effects */
+  .btn-default:hover {
+    background-color: #777;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  .result {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
